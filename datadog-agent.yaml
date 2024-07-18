@@ -4,7 +4,7 @@ metadata:
   name: datadog
 spec:
   global:
-    site: datadoghq.ap1
+    site: ap1.datadoghq.com
     credentials:
       apiSecret:
         secretName: datadog-secret
