@@ -18,5 +18,3 @@ spec:
       enabled: true
     logCollection:
       enabled: true
-    gke:
-      enabled: true
