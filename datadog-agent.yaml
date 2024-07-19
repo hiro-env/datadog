@@ -15,8 +15,7 @@ spec:
   features:
     apm:
       enabled: true
+      hostPortConfig:
+        enabled: true
     logCollection:
       enabled: true
-  agent:
-    config:
-      hostNetwork: true
