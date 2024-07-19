@@ -14,7 +14,8 @@ spec:
         keyName: app-key
   features:
     apm:
-      hostPort: 8126
       enabled: true
+      portConfig:
+        hostPort: 8126
     logCollection:
       enabled: true
