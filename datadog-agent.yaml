@@ -15,7 +15,8 @@ spec:
   features:
     apm:
       enabled: true
-      portConfig:
-        hostPort: 8126
     logCollection:
       enabled: true
+  agent:
+    config:
+      hostNetwork: true
